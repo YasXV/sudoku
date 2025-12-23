@@ -1,6 +1,6 @@
-#THE SUDOKU GENERATOR/SOLVER 
+# THE SUDOKU GENERATOR/SOLVER 
 
-##As a fan of sudoku, who plays almost daily, I wanted to challenge myself by implementing a sudoku generator/solver in c. 
+## As a fan of sudoku, who plays almost daily, I wanted to challenge myself by implementing a sudoku generator/solver in c. 
 
 ### 1st step : 
 
