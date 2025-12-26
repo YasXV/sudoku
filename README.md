@@ -4,5 +4,5 @@
 
 #### 1st step : 
 
-- implementing a table stucture (3x3)
-- implementing a sudoku table structure, that contains n x n tables.
+- 1) implementing a table stucture (3x3)
+- 2) implementing a sudoku table structure, that contains n x n tables (structure defined earlier).
