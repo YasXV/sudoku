@@ -25,7 +25,7 @@ a_table init_table(){
     	(my_table->matrix)[i] = (int*)malloc(n*sizeof(int));
     }
     
-    //checking if the matrix
+    //checking if the matrix is allocated safely
 	if (my_table->matrix == NULL) {
         fprintf(stderr,"fail to allocate memory to the matrix of a table");
         return NULL;
@@ -41,9 +41,16 @@ a_table init_table(){
     return my_table;
 }
 
+
+void display_line(a_table table, int i){
+	for(int j=0; j<table->dimension; j++){
+		if(j==0){printf("|");}
+			printf(" %i |",table->matrix[i][j]);
+	}
+}
+
 //display
 void display(a_table table){
-	printf("\n");
 	for(int i=0; i<table->dimension;i++){
 		//for the first line
 		if(i==0){

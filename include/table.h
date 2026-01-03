@@ -21,5 +21,8 @@ void fill(a_table table);
 //display th table on the terminal
 void display(a_table table);
 
+//display a particular line i of a table
+void display_line(a_table table, int i);
+
 
 #endif
